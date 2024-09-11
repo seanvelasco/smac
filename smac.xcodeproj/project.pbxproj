@@ -7,18 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		141954872C91B1F400EBF6B1 /* QRView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141954862C91B1F400EBF6B1 /* QRView.swift */; };
 		14227C742C90A6F80072C570 /* smacApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14227C732C90A6F80072C570 /* smacApp.swift */; };
 		14227C762C90A6F80072C570 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14227C752C90A6F80072C570 /* ContentView.swift */; };
 		14227C782C90A6FA0072C570 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14227C772C90A6FA0072C570 /* Assets.xcassets */; };
 		14227C7B2C90A6FA0072C570 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14227C7A2C90A6FA0072C570 /* Preview Assets.xcassets */; };
+		14227C822C90ABBC0072C570 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14227C812C90ABBB0072C570 /* HomeView.swift */; };
+		14227C842C90B05C0072C570 /* PerksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14227C832C90B05C0072C570 /* PerksView.swift */; };
+		14227C862C90B0640072C570 /* CardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14227C852C90B0640072C570 /* CardsView.swift */; };
+		14227C882C90B06F0072C570 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14227C872C90B06F0072C570 /* AccountView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		141954862C91B1F400EBF6B1 /* QRView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRView.swift; sourceTree = "<group>"; };
 		14227C702C90A6F80072C570 /* smac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = smac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14227C732C90A6F80072C570 /* smacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smacApp.swift; sourceTree = "<group>"; };
 		14227C752C90A6F80072C570 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		14227C772C90A6FA0072C570 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14227C7A2C90A6FA0072C570 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		14227C812C90ABBB0072C570 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		14227C832C90B05C0072C570 /* PerksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerksView.swift; sourceTree = "<group>"; };
+		14227C852C90B0640072C570 /* CardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsView.swift; sourceTree = "<group>"; };
+		14227C872C90B06F0072C570 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +63,13 @@
 			children = (
 				14227C732C90A6F80072C570 /* smacApp.swift */,
 				14227C752C90A6F80072C570 /* ContentView.swift */,
+				14227C832C90B05C0072C570 /* PerksView.swift */,
+				14227C852C90B0640072C570 /* CardsView.swift */,
+				14227C872C90B06F0072C570 /* AccountView.swift */,
 				14227C772C90A6FA0072C570 /* Assets.xcassets */,
 				14227C792C90A6FA0072C570 /* Preview Content */,
+				14227C812C90ABBB0072C570 /* HomeView.swift */,
+				141954862C91B1F400EBF6B1 /* QRView.swift */,
 			);
 			path = smac;
 			sourceTree = "<group>";
@@ -137,8 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14227C882C90B06F0072C570 /* AccountView.swift in Sources */,
+				14227C822C90ABBC0072C570 /* HomeView.swift in Sources */,
+				14227C862C90B0640072C570 /* CardsView.swift in Sources */,
 				14227C762C90A6F80072C570 /* ContentView.swift in Sources */,
+				14227C842C90B05C0072C570 /* PerksView.swift in Sources */,
 				14227C742C90A6F80072C570 /* smacApp.swift in Sources */,
+				141954872C91B1F400EBF6B1 /* QRView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
