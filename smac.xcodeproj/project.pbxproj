@@ -16,6 +16,7 @@
 		14227C842C90B05C0072C570 /* PerksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14227C832C90B05C0072C570 /* PerksView.swift */; };
 		14227C862C90B0640072C570 /* CardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14227C852C90B0640072C570 /* CardsView.swift */; };
 		14227C882C90B06F0072C570 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14227C872C90B06F0072C570 /* AccountView.swift */; };
+		14C2D84A2C91F20C002CA413 /* AdvantageCardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C2D8492C91F20C002CA413 /* AdvantageCardModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		14227C832C90B05C0072C570 /* PerksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerksView.swift; sourceTree = "<group>"; };
 		14227C852C90B0640072C570 /* CardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsView.swift; sourceTree = "<group>"; };
 		14227C872C90B06F0072C570 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		14C2D8492C91F20C002CA413 /* AdvantageCardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvantageCardModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				14227C772C90A6FA0072C570 /* Assets.xcassets */,
 				14227C792C90A6FA0072C570 /* Preview Content */,
 				14227C812C90ABBB0072C570 /* HomeView.swift */,
+				14C2D8492C91F20C002CA413 /* AdvantageCardModel.swift */,
 				141954862C91B1F400EBF6B1 /* QRView.swift */,
 			);
 			path = smac;
@@ -153,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				14227C882C90B06F0072C570 /* AccountView.swift in Sources */,
+				14C2D84A2C91F20C002CA413 /* AdvantageCardModel.swift in Sources */,
 				14227C822C90ABBC0072C570 /* HomeView.swift in Sources */,
 				14227C862C90B0640072C570 /* CardsView.swift in Sources */,
 				14227C762C90A6F80072C570 /* ContentView.swift in Sources */,
